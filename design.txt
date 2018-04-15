@@ -1,0 +1,34 @@
+-database Design
+on loading into page
+-display of candidates in faculty or hall or guild president
+
+|candidates|						
+=cid
+=sid						
+=photo
+=position
+
+|students| 'starting data sets'
+=sid
+=student number
+=full_names
+=faculty
+=year of study
+=course
+=age
+=status [bool] 0 -not 1 -voted
+
+|votes|
+=vid
+=sid 		//student number of student voting
+=cid 		//student number of candidate voted
+=vote		
+
+|Final|
+=fid
+=cid
+=tally
+
+votes will be like an entry of a single student
+//no replication of a row with a sid, faculty and hall
+//num_rows returned
