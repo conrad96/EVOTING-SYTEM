@@ -22,13 +22,13 @@
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/projects/grace/index.php/';
-$config['bootstrap']='http://localhost/projects/grace/assets/css/bootstrap.css';
-$config['css']='http://localhost/projects/grace/assets/css/main.css';
-$config['jquery']='http://localhost/projects/grace/assets/js/jquery-3.2.1.min.js';
-$config['bootstrap_js']='http://localhost/projects/grace/assets/js/bootstrap.js';
-$config['images']='http://localhost/projects/grace/assets/img/';
-$config['scripts']='http://localhost/projects/grace/assets/js/';
+$config['base_url'] = 'http://localhost/projects/evote/index.php/';
+$config['bootstrap']='http://localhost/projects/evote/assets/css/bootstrap.css';
+$config['css']='http://localhost/projects/evote/assets/css/main.css';
+$config['jquery']='http://localhost/projects/evote/assets/js/jquery-3.2.1.min.js';
+$config['bootstrap_js']='http://localhost/projects/evote/assets/js/bootstrap.js';
+$config['images']='http://localhost/projects/evote/assets/img/';
+$config['scripts']='http://localhost/projects/evote/assets/js/';
 /*
 |--------------------------------------------------------------------------
 | Index File
